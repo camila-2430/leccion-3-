@@ -1,14 +1,51 @@
-body {
-    background-color: rgb(152, 215, 236);
-}
 
-h1 {
-    color: red;
-}
-
-img {
+<style>.hero-fixed {
     width: 400px;
     height: 300px;
-    display: block;
-    margin: auto;
+
+    background: linear-gradient(rgba(0, 0, 0, 0, .2), rgba(0, 0, 0, 0.2)), url(/assets/img/image_b9602ca8.png);
+    background-size: cover;
+    background-position: center;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0 auto;
+
 }
+
+.hero-content h1,
+.hero-content h2,
+.hero-content h3,
+.hero-content h4 {
+    color: red !important;
+    text-align: center !important;
+    margin: 5px 0 !important;
+    display: block !important;
+}
+
+.hero-content h1 {
+    font-size: 2rem;
+}
+
+.hero-content h2 {
+    font-size: 1.5rem;
+}
+
+.hero-content h3 {
+    font-size: 1.2rem;
+}
+
+.hero-content h4 {
+    font-size: 1rem;
+}
+
+.hero-content p {
+    color: black;
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
+
+</style>
