@@ -1,5 +1,8 @@
+h1, h2, h3, h4 {
+    color: red!important;
+}  
 
-<style>.hero-fixed {
+.hero-fixed {
     width: 400px;
     height: 300px;
 
@@ -48,4 +51,4 @@
     margin-top: 10px;
 }
 
-</style>
+
